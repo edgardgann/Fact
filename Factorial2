@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+
+
+public class factori {
+	
+	
+	public static void main(String[] args){
+		
+		 Scanner s = new Scanner(System.in) ; 
+		 System.out.print("\nVvedite 4islo k kotoromu nado nayti factorial");
+		 int a = s.nextInt();  
+		 int fact = 1;
+		 for(int i=1;i<=a;i++){
+			 
+			 
+			 fact *= i;
+		 }
+		 System.out.print("\nFactorial:result");
+		 System.out.println(fact);
+		
+		
+	}
+
+}
